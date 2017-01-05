@@ -1,15 +1,15 @@
-// setInterval(countdownWedding, 1000);
+setInterval(countdownWedding, 1000);
 
-// function countdownWedding() {
-//   var c = moment("2016-11-13 17:00:00").countdown();
-//   document.getElementById('months').innerText = c.months;
-//   document.getElementById('days').innerText = c.days;
-//   document.getElementById('hours').innerText = c.hours;
-//   document.getElementById('minutes').innerText = c.minutes;
-//   document.getElementById('seconds').innerText = c.seconds;
-// }
+function countdownWedding() {
+  var c = moment("2017-02-11 17:00:00").countdown();
+  document.getElementById('months').innerText = c.months;
+  document.getElementById('days').innerText = c.days;
+  document.getElementById('hours').innerText = c.hours;
+  document.getElementById('minutes').innerText = c.minutes;
+  document.getElementById('seconds').innerText = c.seconds;
+}
 
-// countdownWedding();
+countdownWedding();
 
 $('.slider').slick({
   lazyLoad: 'ondemand',
